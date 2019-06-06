@@ -911,5 +911,6 @@ def DOA_plot(DOA_data, incident_angles, log_scale_min=None, alias_highlight=True
         axes.axvspan(180-theta_alias_min, 180-theta_alias_max, color='blue', alpha=0.3) 
         axes.axvspan(0, theta_alias_min, color='blue', alpha=0.3) 
 
-    plt.grid()   
+    plt.grid()
+    plt.show()
     return axes
